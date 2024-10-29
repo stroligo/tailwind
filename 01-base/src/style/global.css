@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply font-geo text-hero  font-extrabold leading-none;
+}
+h2 {
+  @apply font-geo text-5xl;
+}
+h3 {
+  @apply font-geo text-3xl font-normal leading-none;
+}
